@@ -69,6 +69,6 @@ requireTemplateStrings: true
 safeContextKeyword: self
 validateIndentation: 2
 validateLineBreaks: LF
-validateOrderInObjectKeys: asc
+validateOrderInObjectKeys: asc-natural
 validateParameterSeparator: ", "
 validateQuoteMarks: "'"
