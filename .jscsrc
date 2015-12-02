@@ -36,7 +36,7 @@ requireCamelCaseOrUpperCaseIdentifiers: true
 requireCapitalizedComments: { allExcept: [eslint] }
 requireCapitalizedConstructors: true
 requireCommaBeforeLineBreak: true
-requireCurlyBraces: true
+requireCurlyBraces: ['catch', 'do', 'else', 'finally', 'for', 'if', 'try', 'while']
 requireDotNotation: true
 requireLineBreakAfterVariableAssignment: true
 requireLineFeedAtFileEnd: true
