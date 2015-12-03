@@ -36,13 +36,13 @@ requireCamelCaseOrUpperCaseIdentifiers: true
 requireCapitalizedComments: { allExcept: [eslint] }
 requireCapitalizedConstructors: true
 requireCommaBeforeLineBreak: true
-requireCurlyBraces: ['catch', 'do', 'else', 'finally', 'for', 'if', 'try', 'while']
+requireCurlyBraces: [ catch, do, else, finally, for, if, try, while ]
 requireDotNotation: true
 requireLineBreakAfterVariableAssignment: true
 requireLineFeedAtFileEnd: true
 requireMatchingFunctionName: true
 requirePaddingNewLineAfterVariableDeclaration: true
-requirePaddingNewLinesAfterBlocks: { allExcept: ['inCallExpressions', 'inNewExpressions', 'inArrayExpressions', 'inProperties'] }
+requirePaddingNewLinesAfterBlocks: { allExcept: [ inCallExpressions , inNewExpressions, inArrayExpressions, inProperties ] }
 requirePaddingNewLinesAfterUseStrict: true
 requirePaddingNewLinesBeforeExport: true
 requirePaddingNewLinesBeforeLineComments: { allExcept: firstAfterCurly }
