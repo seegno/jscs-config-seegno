@@ -28,6 +28,10 @@
     "url": "https://github.com/seegno/jscs-config-seegno/issues"
   },
   "homepage": "https://github.com/seegno/jscs-config-seegno#readme",
+  "dependencies": {
+    "lodash.get": "^4.1.2",
+    "sql-parse": "^0.1.5"
+  },
   "devDependencies": {
     "jscs": "^2.8.0",
     "mocha": "^2.3.3",

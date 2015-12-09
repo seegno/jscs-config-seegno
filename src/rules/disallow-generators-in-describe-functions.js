@@ -10,8 +10,7 @@ const assert = require('assert');
  * Export `disallowGeneratorsInDescribeFunctions`.
  */
 
-module.exports = function() {
-};
+module.exports = function() {};
 
 module.exports.prototype = {
   check: (file, errors) => {
