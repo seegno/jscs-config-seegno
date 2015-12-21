@@ -46,7 +46,7 @@ requirePaddingNewLinesAfterBlocks: { allExcept: [ inCallExpressions , inNewExpre
 requirePaddingNewLinesAfterUseStrict: true
 requirePaddingNewLinesBeforeExport: true
 requirePaddingNewLinesBeforeLineComments: { allExcept: firstAfterCurly }
-requirePaddingNewlinesBeforeKeywords: [ case, do, for, if, return, switch, try, typeof, void, while, with ]
+requirePaddingNewlinesBeforeKeywords: [ case, do, for, if, return, switch, try, void, while, with ]
 requireParenthesesAroundIIFE: true
 requireSemicolons: true
 requireShouldAssertionExecution: true
