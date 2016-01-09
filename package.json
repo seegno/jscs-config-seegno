@@ -37,10 +37,6 @@
     "mocha": "^2.3.3",
     "should": "^7.1.0"
   },
-  "peerDependencies": {
-    "jscs": ">= 2.5",
-    "should": ">= 7.1"
-  },
   "engines": {
     "node": ">=4"
   }
