@@ -24,7 +24,7 @@
     "shared"
   ],
   "author": "Seegno",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/seegno/jscs-config-seegno/issues"
   },
