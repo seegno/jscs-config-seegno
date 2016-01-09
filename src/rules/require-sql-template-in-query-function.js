@@ -4,15 +4,15 @@
  * Module dependencies.
  */
 
-import assert from 'assert';
+const assert = require('assert');
 
 /**
  * Export `requireSqlTemplateInQueryFunction`.
  */
 
-const requireSqlTemplateInQueryFunction = () => {};
+module.exports = function() {};
 
-requireSqlTemplateInQueryFunction.prototype = {
+module.exports.prototype = {
   check: (file, errors) => {
     file.iterateNodesByType('CallExpression', (node) => {
       let property = node.callee.property;
@@ -43,5 +43,3 @@ requireSqlTemplateInQueryFunction.prototype = {
     return 'requireSqlTemplateInQueryFunction';
   }
 };
-
-export default requireSqlTemplateInQueryFunction;

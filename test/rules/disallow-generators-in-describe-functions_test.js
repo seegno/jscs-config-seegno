@@ -4,14 +4,14 @@
  * Module dependencies.
  */
 
-import Checker from 'jscs';
-import Rule from '../../src/rules/disallow-generators-in-describe-functions';
+const Checker = require('jscs');
+const Rule = require('../../src/rules/disallow-generators-in-describe-functions');
 
 /**
  * Tests for `disallow-generators-in-describe-functions`.
  */
 
-describe('disallow-generators-in-describe-functions rule', function() {
+describe('disallow-generators-in-describe-functions rule', () => {
   let checker;
 
   beforeEach(() => {

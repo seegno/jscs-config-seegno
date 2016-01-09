@@ -4,8 +4,8 @@
  * Module dependencies.
  */
 
-import Checker from 'jscs';
-import Rule from '../../src/rules/require-should-assertion-execution';
+const Checker = require('jscs');
+const Rule = require('../../src/rules/require-should-assertion-execution');
 
 /**
  * Tests for `require-should-assertion-execution`.

@@ -4,15 +4,16 @@
  * Module dependencies.
  */
 
-import assert from 'assert';
+const assert = require('assert');
 
 /**
  * Export `disallowGeneratorsInDescribeFunctions`.
  */
 
-const disallowGeneratorsInDescribeFunctions = () => {};
+module.exports = function() {
+};
 
-disallowGeneratorsInDescribeFunctions.prototype = {
+module.exports.prototype = {
   check: (file, errors) => {
     file.iterateNodesByType('CallExpression', (node) => {
       if (node.callee.name !== 'describe') {
@@ -43,5 +44,3 @@ disallowGeneratorsInDescribeFunctions.prototype = {
     return 'disallowGeneratorsInDescribeFunctions';
   }
 };
-
-export default disallowGeneratorsInDescribeFunctions;

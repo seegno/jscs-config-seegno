@@ -4,8 +4,8 @@
  * Module dependencies.
  */
 
-import Checker from 'jscs';
-import Rule from '../../src/rules/require-sql-template-in-query-function';
+const Checker = require('jscs');
+const Rule = require('../../src/rules/require-sql-template-in-query-function');
 
 /**
  * Tests for `require-sql-template-in-query-function`.

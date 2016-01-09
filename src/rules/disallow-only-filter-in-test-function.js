@@ -4,15 +4,15 @@
  * Module dependencies.
  */
 
-import assert from 'assert';
+const assert = require('assert');
 
 /**
  * Export `disallowOnlyFilterInTestFunctions`.
  */
 
-const disallowOnlyFilterInTestFunctions = () => {};
+module.exports = function() {};
 
-disallowOnlyFilterInTestFunctions.prototype = {
+module.exports.prototype = {
   check: (file, errors) => {
     file.iterateNodesByType('MemberExpression', (node) => {
       if (node.property.name !== 'only' && (node.object.name !== 'describe' || node.object.name !== 'it')) {
@@ -34,5 +34,3 @@ disallowOnlyFilterInTestFunctions.prototype = {
     return 'disallowOnlyFilterInTestFunctions';
   }
 };
-
-export default disallowOnlyFilterInTestFunctions;

@@ -13,17 +13,16 @@ $ npm install jscs jscs-config-seegno --save-dev
 Create an `.jscsrc` file with the following:
 
 ```yaml
-plugins:
-  - 'jscs-config-seegno'
-
 preset: seegno
 ```
 
 Add the following `script` to your `package.json`:
 
 ```json
-scripts: {
-  "lint": "jscs ."
+{
+  "scripts": {
+    "lint": "jscs ."
+  }
 }
 ```
 
