@@ -3,7 +3,7 @@ disallowDanglingUnderscores: true
 disallowEmptyBlocks: true
 disallowGeneratorsInDescribeFunctions: true
 disallowKeywords: [ with ]
-disallowKeywordsInComments: true
+disallowKeywordsInComments: false
 disallowKeywordsOnNewLine: [ catch, else, while ]
 disallowMixedSpacesAndTabs: true
 disallowMultipleLineBreaks: true
