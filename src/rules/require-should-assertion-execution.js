@@ -4,8 +4,8 @@
  * Module dependencies.
  */
 
-import assert from 'assert';
-import should from 'should';
+const assert = require('assert');
+const should = require('should');
 
 /**
  * Auxiliary constants.
@@ -19,9 +19,9 @@ const chains = Object.keys(Assertion).filter(key => typeof Assertion[key] !== 'f
  * Export `requireShouldAssertionExecution`.
  */
 
-const requireShouldAssertionExecution = () => {};
+module.exports = function() {};
 
-requireShouldAssertionExecution.prototype = {
+module.exports.prototype = {
   check: (file, errors) => {
     file.iterateNodesByType('Identifier', (node) => {
       if (!node.parentNode || !node.parentNode.object || !node.parentNode.object.property) {
@@ -60,5 +60,3 @@ requireShouldAssertionExecution.prototype = {
     return 'requireShouldAssertionExecution';
   }
 };
-
-export default requireShouldAssertionExecution;

@@ -2,15 +2,13 @@
   "name": "jscs-config-seegno",
   "version": "1.1.0",
   "description": "Seegno-flavored JSCS config.",
-  "main": "dist/index.js",
+  "main": "src/presets/seegno.json",
   "options": {
-    "mocha": "--compilers js:babel/register --recursive --require should test"
+    "mocha": "--recursive --require should test"
   },
   "scripts": {
-    "build": "rm -rf dist/* && babel src/ --out-dir dist/",
     "changelog": "github_changelog_generator --header-label='# Changelog'",
-    "lint": "jscs .",
-    "prepublish": "npm test && npm run build",
+    "lint": "jscs . -c ./src/presets/seegno.json",
     "test": "mocha $npm_package_options_mocha"
   },
   "repository": {
@@ -21,6 +19,7 @@
     "config",
     "jscs",
     "lint",
+    "preset",
     "shared"
   ],
   "author": "Seegno",
@@ -29,17 +28,10 @@
     "url": "https://github.com/seegno/jscs-config-seegno/issues"
   },
   "homepage": "https://github.com/seegno/jscs-config-seegno#readme",
-  "dependencies": {
-    "jscs": "^2.5.0"
-  },
   "devDependencies": {
-    "babel": "^5.8.23",
+    "jscs": "^2.8.0",
     "mocha": "^2.3.3",
-    "should": "^7.1.0"
-  },
-  "peerDependencies": {
-    "jscs": ">= 2.5",
-    "should": ">= 7.1"
+    "should": "^8.0.2"
   },
   "engines": {
     "node": ">=4"

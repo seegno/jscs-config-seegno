@@ -4,8 +4,8 @@
  * Module dependencies.
  */
 
-import Checker from 'jscs';
-import Rule from '../../src/rules/disallow-only-filter-in-test-function';
+const Checker = require('jscs');
+const Rule = require('../../src/rules/disallow-only-filter-in-test-function');
 
 /**
  * Tests for `disallow-only-filter-in-test-function`.
