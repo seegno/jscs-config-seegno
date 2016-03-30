@@ -131,7 +131,7 @@
   "requireSpacesInForStatement": true,
   "requireSpacesInsideObjectBrackets": "all",
   "requireSpread": true,
-  "requireSqlTemplateInQueryFunction": true,
+  "requireSqlTemplate": true,
   "requireTemplateStrings": true,
   "safeContextKeyword": "self",
   "validateIndentation": 2,
