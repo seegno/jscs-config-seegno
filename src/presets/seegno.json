@@ -134,7 +134,6 @@
   "requireSqlTemplate": true,
   "requireTemplateStrings": true,
   "safeContextKeyword": "self",
-  "validateIndentation": 2,
   "validateLineBreaks": "LF",
   "validateOrderInObjectKeys": "asc-natural",
   "validateParameterSeparator": ", ",
