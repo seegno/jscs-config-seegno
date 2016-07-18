@@ -1,3 +1,5 @@
+# Deprecated. JSCS is moving to the ESLint team. Use [eslint-config-seegno](https://github.com/seegno/eslint-config-seegno) with ESLint.
+
 # jscs-config-seegno
 Seegno-flavored JSCS config.
 
