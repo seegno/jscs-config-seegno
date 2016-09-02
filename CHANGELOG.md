@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.0.2](https://github.com/seegno/jscs-config-seegno/tree/HEAD)
+[Full Changelog](https://github.com/seegno/jscs-config-seegno/compare/2.0.1...2.0.2)
+
+**Merged pull requests:**
+
+- Remove `validateOrderInObjectKeys` rule [\#32](https://github.com/seegno/jscs-config-seegno/pull/32) ([franciscocardoso](https://github.com/franciscocardoso))
+- Remove `esnext` option as it is enabled by default [\#30](https://github.com/seegno/jscs-config-seegno/pull/30) ([franciscocardoso](https://github.com/franciscocardoso))
+
+
 ## [2.0.1](https://github.com/seegno/jscs-config-seegno/tree/2.0.1) (2016-07-18)
 [Full Changelog](https://github.com/seegno/jscs-config-seegno/compare/2.0.0...2.0.1)
 

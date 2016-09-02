@@ -1,6 +1,6 @@
 {
   "name": "jscs-config-seegno",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Seegno-flavored JSCS config.",
   "main": "src/presets/seegno.json",
   "options": {
