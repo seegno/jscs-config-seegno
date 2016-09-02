@@ -135,7 +135,6 @@
   "safeContextKeyword": "self",
   "validateIndentation": 2,
   "validateLineBreaks": "LF",
-  "validateOrderInObjectKeys": "asc-natural",
   "validateParameterSeparator": ", ",
   "validateQuoteMarks": "'"
 }
