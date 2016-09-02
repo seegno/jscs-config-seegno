@@ -40,7 +40,6 @@
   "disallowTrailingComma": true,
   "disallowTrailingWhitespace": true,
   "disallowYodaConditions": true,
-  "esnext": true,
   "excludeFiles": [
     ".git",
     "dist",
