@@ -133,7 +133,6 @@
   "requireSqlTemplate": true,
   "requireTemplateStrings": true,
   "safeContextKeyword": "self",
-  "validateIndentation": 2,
   "validateLineBreaks": "LF",
   "validateParameterSeparator": ", ",
   "validateQuoteMarks": "'"
